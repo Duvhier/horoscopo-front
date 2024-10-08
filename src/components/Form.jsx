@@ -12,7 +12,7 @@ function Form({ callback }) {
         event.preventDefault();
 
         try {
-            const response = await fetch('https://horoscopo-front-duvhiers-projects.vercel.app/v1/signos/login', {
+            const response = await fetch('https://horoscopo-front-dusky.vercel.app/v1/signos/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
