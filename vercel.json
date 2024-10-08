@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "softedubackmongodb",
+    "builds": [
+       { 
+        "src": "Form.jsx", 
+        "use": "@vercel/node" 
+      }
+    ],
+    "routes": [
+       { 
+        "src": "/(.*)", 
+        "dest": "/Form.jsx" 
+      }
+    ]
+  }
